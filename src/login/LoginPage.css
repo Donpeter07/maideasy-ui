@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Helveticaqq;
+    src: url(../fonts/HelveticaNeueMedium.ttf);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* background-color: #ecebe7; */
+/* overflow: hidden; */
+
+
+.nav_img {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px 10px 20px;
+
+}
+
+.main_body {
+    background-color: #ecebe7;
+    border-radius: 17px;
+    box-shadow: 0 1px 2px 3px rgb(60 64 67 / 8%);
+    height: 200px;
+    padding: 15px 20px;
+}
+
+.main_body_heading {
+    color: #1e3343 !important;
+    font-family: Helvetica !important;
+    font-size: 18px;
+}
+
+.main_body_para {
+    color: #1e3343 !important;
+    font-family: Helveticaqq !important;
+    font-size: 16px;
+    padding-top: 2px;
+    text-align: justify;
+    margin-top: 15px;
+}
+
+.customtip {
+    cursor: pointer;
+    margin: 10px;
+    text-decoration: underline;
+    font-family: sans-serif;
+}
+
+.input_box {
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    outline-style: hidden;
+    /* font-size: 20px; */
+    height: 50px;
+    padding: 8px;
+    border: 1px #b1b9ce solid;
+
+}
+
+button {
+    border: 1px #b1b9ce solid;
+}
+
+.show {
+    display: block;
+}
+
+.notshow {
+    display: none !important;
+}
+
+.helvfont {
+    font-family: Helveticaqq;
+}
+
+.tip_heading {
+    font-family: Helveticaqq;
+    font-size: 15px;
+    color: #212529;
+}
+
+.btnbg {
+    background-color: #2878FA !important;
+    color: white;
+    border-radius: 4px !important;
+    border: 1px #B1B9CE solid;
+    font-size: 1rem;
+    font-family: Helvetica, Arial, sans-serif;
+    cursor: pointer;
+    width: 100%;
+    padding: 20px;
+}
+
+.Demo {
+    flex: 1 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding-bottom: 40%; */
+    max-width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.StripeElement {
+    max-width: 500px;
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 1em;
+    outline: 0;
+    border-radius: 0px;
+    background: transparent;
+    font-family: helvaticanue !important;
+}
+
+input:focus,
+.StripeElement--focus {
+    -webkit-transition: all 150ms ease;
+    transition: all 150ms ease;
+    border: none !important;
+}
+
+.StripeElement .InputElement {
+    font-family: helvaticanue !important;
+}
+
+.input_icon {
+    position: absolute;
+    top: -1px;
+    left: 5px;
+    font-size: 24px;
+}
+.value-box {
+    margin: 2px 10px 10px 10px;
+    height: 45px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid rgba(0,0,0,.2); */
+    box-shadow: 0px 1px 2px 3px rgb(60 64 67 / 8%);
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.value-box:after {
+    content: '';
+    position: absolute;
+    top: -19px;
+    left: -8px !important;
+    right: 0;
+    margin: -15px auto;
+    width: 0;
+    height: 0;
+    border-top: solid 100px #EBE8E1;
+    box-sizing: border-box;
+    border: 10px solid black;
+    border-color: transparent transparent #EBE8E1 #EBE8E1;
+    transform-origin: 0 0;
+    transform: rotate(-45deg);
+    box-shadow: -3px 3px 2px 0 rgb(0 0 0 / 9%);
+}
+.bold {
+    font-weight: bold;
+    color: #1E3343 !important;
+    font-family: helvaticanue;
+}
